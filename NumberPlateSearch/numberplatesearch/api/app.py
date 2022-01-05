@@ -11,4 +11,9 @@ def welcome():
 
 @app.route('/time')
 def get_current_time():
-    return {'Now its : ': time.time()}
+    return {'Current time ': time.time()}
+
+
+@app.route('/getNumber')
+def getNumber():
+    return ('Car Number')
